@@ -17,15 +17,15 @@ describe "prime?" do
 end
 
 
-def prime?(int)
-  
-end
-
-
-def is_prime?(num)
-  (2...num).each do |divisor|
+def prime?(number)
+  (2...int).each do |divisor|
     return false if num % divisor == 0
   end
 
   true
+end
+
+
+def is_prime?(num)
+  
 end
