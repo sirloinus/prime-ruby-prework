@@ -19,7 +19,7 @@ end
 
 def prime?(number)
   (2...number).each do |divisor|
-  return false if number % divisor == 0
+    return false if number % divisor == 0
   end
   true
 end
