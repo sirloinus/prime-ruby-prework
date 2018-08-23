@@ -1,21 +1,17 @@
-def prime?(number)
-  return false if number % 2 == 0
-  true 
-end
-
-# def is_prime n
-#   for d in 2..(n - 1)
-#   if (n % d) == 0
-#     return false
-#   end
-#   end
-
-#   true
+# def prime?(number)
+#   return false if number % 2 == 0
+#   true 
 # end
 
 
 
-#   (2...number).each do |divisor|
-    
-#   end
-#   true
+
+def prime?(number)
+  if number >= 2
+    (2..number - 1).all? do |x|
+      number % x != 0
+    end
+  else
+    return false
+  end
+end
