@@ -1,5 +1,4 @@
 def prime?(number)
-  prime_array = []
   return false if number % 2 == 0
   true 
 end
