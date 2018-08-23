@@ -1,9 +1,7 @@
 def prime?(number)
   prime_array = []
   return false if number % divisor == 0
-  end
   true 
-  
 end
 
 # def is_prime n
